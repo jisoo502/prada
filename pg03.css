@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Noto Snas KR';
+    src: url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:hover{color: rgb(245, 200, 3);}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 30px;
+}
+nav{
+    height: 85px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+nav ul{
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul li a{
+    display: block;
+    width: 130px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav ul h1 a{
+    display: block;
+    width: 130px;
+    text-align: center;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    color: rgb(245, 200, 3);
+    text-decoration: none;
+}
+.headline{
+    position: relative;
+    width: 365PX;
+    left: 120px;
+    margin-top: 224px;
+    font-size: 120px;
+    color: rgb(0, 0, 0);
+}
+.box4 h2{
+    width: 572PX;
+    margin-top: -65px;
+    padding-left: 1352px;
+    font-size: 35px;
+    Font-weight: 100;
+    color: rgb(0, 0, 0);
+} 
+.img1{
+    padding-left: 96px;
+    margin-top: 35px;
+}
+.box4 h3{
+    width: 572PX;
+    margin-top: 320px;
+    padding-left: 275px;
+    font-size: 90px;
+    opacity: 45%;
+    color: rgb(162, 157, 157);
+}
+.box4 h4{
+    width: 670PX;
+    margin-top: 30px;
+    padding-left: 224px;
+    font-size: 45px;
+    Font-weight: 30;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}  
+.box4 h5{
+    width: 550PX;
+    margin-top: 30px;
+    padding-left: 275px;
+    font-size: 30px;
+    Font-weight: 10;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.img2{
+    padding-left: 1024px;
+    margin-top: -600px;
+}
+.box4 h6{
+    width: 1000PX;
+    margin-top: 320px;
+    padding-left: 450px;
+    display: flex;
+    font-size: 25px;
+    Font-weight: 10;
+    color: rgb(0, 0, 0);
+}

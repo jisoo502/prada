@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Noto Snas KR';
+    src: url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:hover{color: rgb(245, 200, 3);}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 30px;
+}
+nav{
+    height: 85px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+nav ul{
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul li a{
+    display: block;
+    width: 130px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav ul h1 a{
+    display: block;
+    width: 130px;
+    text-align: center;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    color: rgb(245, 200, 3);
+    text-decoration: none;
+}
+
+.box1{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    background-size: 100vw;
+  }
+
+  .box1 h1{position: absolute;
+    text-align: center;
+    width: 590px;
+    left: 65%; 
+    transform: translateX(-50%);
+    margin-top: 1635px;
+    color: rgb(255, 255, 255);
+    font-size: 80px;}
+
+.box1 h2{position: absolute;
+        text-align: center;
+        width: 582px;
+        left: 65%; 
+        transform: translateX(-50%);
+        margin-top: 1730px;
+        color: rgb(255, 255, 255);
+        font-size: 48px;}
+
+.box1 h3{position: absolute;
+            text-align: center;
+            width: 768px;
+            left: 65%; 
+            transform: translateX(-50%);
+            margin-top: 1830px;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            Font-weight: 100
+        }
+.box1 h4{position: absolute;
+            text-align: center;
+            width: 1020px;
+            left: 65%; 
+            transform: translateX(-50%);
+            margin-top: 1950px;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            Font-weight: 100;
+        }
